@@ -1,0 +1,24 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Node.js demo class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mesajil/JS-Projects.git"
+  },
+  "keywords": [
+    "node.js",
+    "demo"
+  ],
+  "author": "Luis H. Mesajil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mesajil/JS-Projects/issues"
+  },
+  "homepage": "https://github.com/mesajil/JS-Projects#readme"
+}
