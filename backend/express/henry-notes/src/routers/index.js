@@ -4,9 +4,15 @@ const listRouter = require('./listRouter')
 const server = express()
 
 
-// Set up my server and middleWares
+// MiddleWares
 server.use(morgan('dev'))
 server.use(express.json()) // Every request to json
+
+// My middleware
+server.use ("/", (req, res, next) => {
+    console.log(`REQUEST URL: ${req.url}`); // logger
+    next() // Don't wait for a res method call.
+})
 
 // Use routers
 server.use('/list', listRouter)
