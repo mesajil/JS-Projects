@@ -46,6 +46,10 @@ jspm_packages/
 
 # Ignore node_modules directory recursively
 **/node_modules/
+**/package-lock.json
+
+# PNG
+**/*.png
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/

@@ -8,7 +8,7 @@ const server = express()
 server.use(morgan('dev'))
 server.use(express.json()) // req to json
 
-// Routers
+// Routes
 server.get('/', (req, res) => {
     res.status(200).send("Hello World!")
 })
