@@ -1,0 +1,14 @@
+{
+  "name": "anagrams",
+  "version": "1.0.0",
+  "description": "",
+  "main": "anagrams.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Luis H. Mesajil",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}

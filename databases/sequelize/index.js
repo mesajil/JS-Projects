@@ -1,6 +1,6 @@
 const server = require('./app/routes')
 const PORT = 3001
-const { database } = require('./db')
+const { database } = require('./db.connection')
 
 server.listen(PORT, async () => {
     try {
@@ -12,7 +12,6 @@ server.listen(PORT, async () => {
         console.log('All models were synchronized successfully.')
         console.log(`Listening on port ${PORT}`);
         
-
     } catch (error) {
         console.error('Unable to connect to the database:', error.message);
     }

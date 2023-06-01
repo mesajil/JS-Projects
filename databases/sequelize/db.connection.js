@@ -21,6 +21,9 @@ const database = new Sequelize(
 User(database)
 Character(database)
 
+// Associations
+
+
 // Testing the connection
 database.authenticate()
     .then(() => {
@@ -34,7 +37,7 @@ database.authenticate()
 
 module.exports = {
     database,
-    ...database.models,
+    ...database.models, // Export instances
 };
 
 
