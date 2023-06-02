@@ -17,7 +17,8 @@ const database = new Sequelize(
     { logging: false, }
 )
 
-// Create models
+// Define models
+
 User(database)
 Character(database)
 

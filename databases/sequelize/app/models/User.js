@@ -3,7 +3,7 @@ const { DataTypes } = require('sequelize');
 
 module.exports = (database) => {
     database.define(
-        'User',
+        'User', // Instance name
         { // Model attributes
             id: {
                 type: DataTypes.INTEGER,

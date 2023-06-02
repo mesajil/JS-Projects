@@ -5,7 +5,7 @@ const GENDER = ['Female', 'Male', 'Genderless', 'unknown']
 
 module.exports = (database) => {
     database.define(
-        'Character',
+        'Character', // Instance name
         { // Model attributes
             id: {
                 type: DataTypes.INTEGER,
